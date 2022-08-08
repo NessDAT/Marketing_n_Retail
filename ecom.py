@@ -73,7 +73,7 @@ def get_feature_importances_df(pycaret_pipeline, sample_df, n = 10):
 # THIS IS THE ABOUT SECTION
 #------------------------------------------------------------------------------------------------------------------------
 if selected == "About":
-    st.image('images/about-header2.png')
+    st.subheader("About Page")
 
 
 
