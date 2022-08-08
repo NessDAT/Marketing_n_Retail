@@ -1,0 +1,564 @@
+Tenure,WarehouseToHome,PreferredPaymentMode,Gender,HourSpendOnApp,MaritalStatus,Complain,OrderAmountHikeFromlastYear,CouponUsed,OrderCount,DaySinceLastOrder,CashbackAmount
+9,15,Credit Card,Male,3,Single,0,16,0,4,7,196
+0,12,Debit Card,Female,3,Single,1,18,1,1,0,129
+0,11,E wallet,Male,2,Single,1,11,1,1,3,157
+30,15,Credit Card,Female,3,Divorced,1,20,1,1,0,133
+9,8,E wallet,Female,3,Divorced,0,18,1,1,2,122
+0,14,Credit Card,Male,3,Married,1,15,0,1,1,126
+6,20,Credit Card,Female,3,Divorced,0,13,0,1,6,128
+0,14,Cash on Delivery,Female,2,Single,1,11,1,1,4,127
+18,12,Credit Card,Female,2,Single,0,12,3,6,8,189
+6,14,Credit Card,Female,2,Divorced,0,21,0,1,1,126
+0,8,Debit Card,Female,3,Divorced,0,20,1,1,7,127
+5,10,Debit Card,Female,2,Divorced,0,11,1,1,2,139
+12,8,Cash on Delivery,Female,3,Single,0,25,3,6,3,209
+24,6,Debit Card,Male,3,Divorced,0,11,1,1,0,127
+9,30,Debit Card,Female,2,Divorced,0,15,0,1,8,157
+22,6,Cash on Delivery,Female,2,Single,1,12,1,2,7,240
+5,14,Cash on Delivery,Female,3,Divorced,1,11,3,6,9,152
+15,8,UPI,Male,3,Single,0,23,0,1,0,168
+0,16,E wallet,Female,3,Married,1,12,0,1,3,143
+13,8,E wallet,Female,2,Married,0,12,0,1,3,157
+7,10,E wallet,Female,3,Divorced,0,15,1,1,2,165
+16,14,UPI,Female,3,Married,1,14,0,1,2,145
+25,9,Credit Card,Male,2,Divorced,1,14,0,1,4,180
+19,24,Credit Card,Female,2,Married,0,14,0,1,8,148
+0,29,Debit Card,Female,3,Married,0,22,1,1,2,129
+2,9,Credit Card,Male,3,Divorced,0,18,1,1,3,219
+14,16,Debit Card,Male,2,Single,0,14,0,1,10,162
+13,12,Debit Card,Female,3,Single,0,15,3,2,13,232
+2,25,Cash on Delivery,Male,2,Married,0,12,0,1,2,143
+6,6,Credit Card,Female,3,Married,0,19,1,1,5,262
+10,15,Credit Card,Male,3,Married,0,13,3,6,7,188
+10,8,E wallet,Male,3,Divorced,1,11,0,1,0,196
+0,28,Cash on Delivery,Male,2,Single,0,11,1,1,2,134
+0,9,Debit Card,Male,3,Single,1,11,3,6,7,133
+9,9,Debit Card,Male,2,Divorced,0,18,1,1,0,113
+20,20,E wallet,Male,2,Single,0,12,0,1,7,150
+14,6,UPI,Male,2,Divorced,0,12,1,2,10,271
+9,14,Debit Card,Female,3,Divorced,0,14,0,1,3,217
+7,14,Credit Card,Female,3,Single,0,11,1,4,3,161
+11,8,Credit Card,Male,3,Divorced,1,13,0,1,1,131
+0,32,Credit Card,Female,2,Single,0,23,0,1,4,162
+10,33,Debit Card,Female,3,Single,1,12,1,1,3,164
+18,8,Credit Card,Male,3,Divorced,1,16,1,1,4,271
+7,8,Credit Card,Female,2,Single,0,11,1,1,3,144
+8,14,Debit Card,Female,3,Divorced,0,16,0,1,2,126
+9,12,Debit Card,Male,3,Divorced,1,21,1,1,0,116
+0,14,Debit Card,Female,2,Divorced,1,11,0,1,0,123
+7,14,Debit Card,Female,3,Single,0,16,1,1,3,126
+9,14,Debit Card,Male,3,Divorced,0,21,1,1,3,123
+0,24,UPI,Female,3,Single,0,19,1,1,0,127
+2,14,Credit Card,Male,3,Divorced,1,21,1,2,2,124
+0,14,Debit Card,Female,3,Single,0,19,1,1,0,123
+9,13,UPI,Male,3,Single,0,18,0,1,1,147
+5,14,Debit Card,Female,3,Divorced,0,20,1,1,2,123
+3,30,Debit Card,Female,3,Single,1,16,1,2,0,232
+9,6,Credit Card,Female,3,Married,0,14,0,1,2,123
+8,31,Credit Card,Female,2,Married,1,11,2,6,1,204
+0,14,Debit Card,Male,3,Divorced,0,15,1,1,1,125
+14,13,Credit Card,Female,2,Single,0,14,1,2,1,150
+1,16,Credit Card,Male,3,Divorced,0,22,1,1,0,111
+0,14,Credit Card,Male,2,Married,0,20,1,1,0,124
+11,8,E wallet,Male,2,Single,0,16,1,1,0,174
+16,33,Debit Card,Female,2,Divorced,0,11,0,1,1,208
+8,17,E wallet,Male,2,Married,0,11,0,1,2,150
+5,18,Debit Card,Male,2,Single,1,12,3,2,14,238
+3,16,E wallet,Male,3,Divorced,0,18,1,1,4,166
+0,9,Debit Card,Male,3,Single,0,12,0,1,2,130
+19,21,Debit Card,Male,2,Divorced,0,11,1,1,3,271
+9,6,Cash on Delivery,Female,3,Married,1,21,3,6,7,203
+15,32,Credit Card,Female,2,Divorced,1,17,0,2,0,232
+8,14,E wallet,Female,3,Divorced,1,11,2,4,12,204
+8,8,E wallet,Female,3,Single,1,16,1,1,11,271
+30,24,Credit Card,Male,3,Single,0,12,1,5,4,205
+1,6,Debit Card,Female,2,Divorced,0,11,3,6,5,167
+3,31,E wallet,Male,2,Single,1,12,0,1,0,191
+14,16,Credit Card,Male,2,Single,0,13,3,6,9,162
+8,10,Debit Card,Male,2,Single,1,11,1,1,1,142
+24,11,Debit Card,Male,2,Married,1,11,1,2,10,240
+0,14,Credit Card,Female,3,Divorced,0,14,1,1,0,125
+0,8,Debit Card,Female,3,Single,0,14,0,1,0,128
+12,31,Debit Card,Male,3,Divorced,0,21,0,1,5,209
+15,16,UPI,Female,2,Divorced,0,14,1,1,9,268
+0,34,Debit Card,Male,3,Single,0,20,0,1,3,143
+9,17,Debit Card,Male,3,Divorced,0,14,1,1,4,121
+13,14,Credit Card,Male,2,Married,0,11,1,2,8,238
+6,13,Credit Card,Male,2,Divorced,0,14,0,1,3,144
+3,22,Debit Card,Male,3,Divorced,0,15,0,2,2,153
+0,6,Cash on Delivery,Male,3,Divorced,0,15,1,1,2,129
+9,19,Debit Card,Female,3,Divorced,0,13,0,1,0,120
+20,20,Credit Card,Female,3,Divorced,1,17,1,1,2,146
+5,16,Credit Card,Male,0,Single,0,25,0,1,3,212
+2,14,Debit Card,Male,3,Married,0,18,1,1,0,125
+8,16,Credit Card,Female,2,Single,1,16,1,1,4,161
+13,20,Debit Card,Female,2,Married,0,15,0,1,2,146
+10,16,Credit Card,Female,3,Married,0,11,1,6,7,139
+0,18,UPI,Male,2,Single,1,24,3,6,7,146
+0,15,Credit Card,Male,3,Married,0,16,0,1,4,144
+18,34,Cash on Delivery,Female,2,Single,0,11,1,6,6,267
+13,14,Debit Card,Female,3,Married,1,16,0,1,0,165
+0,35,Credit Card,Male,3,Married,0,13,1,1,2,139
+0,19,E wallet,Male,3,Married,1,13,2,2,2,161
+18,10,Debit Card,Female,2,Married,0,21,1,1,3,198
+6,8,E wallet,Female,3,Single,0,15,0,1,7,151
+0,22,E wallet,Male,3,Married,0,13,1,1,0,182
+9,10,Cash on Delivery,Female,3,Married,0,13,0,1,0,121
+0,13,E wallet,Male,3,Single,0,13,1,1,0,127
+24,9,Cash on Delivery,Female,2,Married,0,11,2,2,3,231
+9,16,Debit Card,Male,2,Married,1,13,1,5,7,183
+12,16,Credit Card,Male,3,Single,0,21,2,2,2,235
+18,31,Debit Card,Female,3,Married,0,13,0,3,8,159
+9,8,UPI,Male,3,Single,0,21,1,1,8,139
+9,23,E wallet,Male,2,Married,0,16,1,1,3,155
+4,10,Credit Card,Female,3,Married,0,12,2,2,2,140
+29,17,E wallet,Female,2,Married,0,16,0,1,0,154
+9,14,Credit Card,Female,2,Married,1,16,1,1,7,121
+4,9,Credit Card,Male,3,Married,1,13,0,2,3,131
+9,15,Debit Card,Male,3,Married,0,22,1,1,2,128
+0,6,Debit Card,Male,2,Single,0,12,1,1,2,146
+11,16,Credit Card,Female,2,Married,0,12,1,2,11,232
+12,15,Debit Card,Male,2,Single,0,16,0,1,3,271
+11,16,Debit Card,Female,3,Married,0,11,0,1,9,153
+18,26,Debit Card,Female,2,Single,0,15,1,1,1,149
+13,34,E wallet,Male,2,Married,1,13,0,2,0,209
+22,8,Credit Card,Male,3,Married,0,14,1,1,8,154
+22,14,Debit Card,Male,3,Married,0,23,0,1,7,151
+26,8,Debit Card,Female,3,Married,0,16,0,2,7,254
+9,11,Cash on Delivery,Male,2,Married,0,14,0,1,0,121
+13,9,E wallet,Male,3,Married,1,14,1,1,2,127
+9,8,E wallet,Female,3,Married,0,13,2,2,2,120
+3,6,Credit Card,Female,2,Single,0,23,1,3,7,140
+8,5,Debit Card,Male,3,Married,0,22,0,1,8,191
+11,14,Debit Card,Female,2,Single,0,11,3,6,9,124
+5,6,Debit Card,Male,3,Married,0,17,1,1,9,162
+3,6,Debit Card,Male,2,Married,1,12,1,3,0,151
+28,6,Debit Card,Male,3,Married,0,14,0,1,0,202
+19,6,Credit Card,Male,2,Married,1,13,3,6,5,207
+5,12,Credit Card,Male,2,Single,0,16,3,5,7,150
+1,10,Credit Card,Male,2,Married,0,15,0,1,4,142
+30,16,Credit Card,Male,2,Single,0,13,0,2,8,239
+0,11,E wallet,Male,2,Single,1,11,0,1,3,157
+22,26,Credit Card,Female,3,Married,0,14,3,5,11,166
+1,27,Credit Card,Male,3,Married,0,11,0,1,2,127
+23,17,Debit Card,Female,2,Single,0,16,0,4,4,271
+11,6,Debit Card,Female,2,Single,0,22,0,1,7,187
+5,12,Debit Card,Male,3,Single,0,20,0,1,4,130
+6,14,Debit Card,Male,2,Single,0,14,1,1,2,125
+9,15,Debit Card,Female,3,Single,0,12,1,2,1,123
+0,29,Debit Card,Male,2,Married,1,13,1,1,1,159
+11,8,Debit Card,Male,2,Married,0,14,1,1,0,166
+0,14,Debit Card,Male,2,Married,1,16,2,2,2,123
+0,26,Debit Card,Female,2,Single,0,14,1,1,7,200
+24,14,Debit Card,Male,2,Married,0,16,2,4,3,225
+10,6,Credit Card,Female,2,Married,0,14,0,1,2,139
+18,13,Debit Card,Male,3,Married,0,17,1,1,2,164
+13,8,Credit Card,Male,2,Married,0,16,3,3,9,271
+10,14,Credit Card,Male,2,Married,1,12,0,1,2,123
+1,22,Credit Card,Male,3,Single,0,19,0,1,7,157
+12,6,Credit Card,Male,2,Married,0,17,1,3,7,196
+18,13,Debit Card,Male,3,Married,0,18,2,6,11,152
+15,14,Credit Card,Male,2,Married,0,15,3,6,7,149
+3,34,Credit Card,Female,3,Married,0,13,1,1,9,158
+16,16,Debit Card,Female,2,Married,0,11,1,1,0,153
+0,14,E wallet,Female,2,Married,0,18,0,1,7,162
+9,9,Credit Card,Male,2,Married,0,11,0,1,12,197
+10,20,Debit Card,Female,3,Married,0,12,3,6,14,130
+10,16,Debit Card,Male,2,Single,1,12,0,1,1,142
+3,8,Debit Card,Female,2,Single,0,20,1,1,2,161
+0,6,Cash on Delivery,Female,3,Single,1,16,0,1,4,132
+0,14,E wallet,Female,2,Married,0,16,0,1,0,124
+9,9,Debit Card,Male,2,Married,0,15,1,1,4,121
+3,14,Credit Card,Female,2,Single,0,14,1,6,7,126
+21,8,E wallet,Female,2,Married,0,14,3,6,7,141
+8,6,E wallet,Male,2,Married,0,11,0,6,9,147
+12,14,Debit Card,Female,2,Married,0,11,1,1,7,138
+4,8,Debit Card,Male,3,Single,1,13,1,1,5,166
+26,6,Credit Card,Female,2,Single,0,20,3,6,10,184
+12,8,Cash on Delivery,Female,3,Single,0,11,1,6,10,146
+13,14,Cash on Delivery,Male,2,Married,1,14,0,1,3,168
+17,30,Credit Card,Male,2,Single,0,14,0,1,4,137
+2,14,Debit Card,Male,3,Single,0,11,1,1,0,126
+29,15,Credit Card,Male,2,Married,0,11,0,1,3,211
+8,8,Debit Card,Female,3,Married,0,11,1,1,0,151
+10,16,Debit Card,Female,3,Married,1,13,3,4,3,128
+3,11,Debit Card,Male,3,Married,0,12,0,1,3,138
+26,29,Debit Card,Female,3,Single,0,18,3,2,8,243
+20,8,E wallet,Female,2,Married,1,22,3,6,7,145
+1,11,Credit Card,Male,3,Single,0,14,0,1,2,149
+9,20,Debit Card,Male,3,Married,1,17,2,4,11,166
+20,8,Debit Card,Female,3,Single,1,18,0,1,2,133
+0,9,Debit Card,Female,2,Married,1,19,1,1,2,142
+9,26,Credit Card,Male,2,Married,0,17,1,1,0,123
+0,6,Debit Card,Male,2,Married,0,11,3,6,14,206
+26,8,Credit Card,Male,2,Married,0,13,3,2,2,249
+12,8,Debit Card,Male,2,Single,0,18,0,1,7,179
+0,14,Debit Card,Female,3,Single,1,20,1,1,0,124
+0,11,Debit Card,Male,3,Single,0,15,0,1,0,111
+21,12,Debit Card,Male,3,Single,0,13,0,2,2,142
+9,16,Debit Card,Female,2,Married,1,19,0,1,0,122
+10,16,Debit Card,Female,2,Married,1,14,1,1,0,167
+13,20,Credit Card,Male,2,Single,0,16,3,4,9,271
+12,15,Debit Card,Male,3,Single,0,15,1,1,3,168
+0,15,E wallet,Female,3,Single,1,17,0,1,3,182
+9,6,Credit Card,Male,2,Married,0,12,1,1,7,123
+8,8,Debit Card,Male,2,Married,0,18,2,6,4,203
+0,5,Debit Card,Male,3,Single,0,12,0,1,2,130
+1,25,Credit Card,Male,3,Married,0,12,1,3,3,132
+9,23,Debit Card,Female,3,Married,0,13,1,1,0,122
+9,7,Cash on Delivery,Female,3,Married,1,21,3,6,7,203
+4,17,Credit Card,Male,3,Married,1,12,1,1,1,168
+4,30,Credit Card,Female,3,Single,0,19,1,1,8,168
+9,7,Debit Card,Male,2,Married,0,22,1,1,1,112
+15,14,Credit Card,Female,3,Married,1,16,0,1,0,124
+1,7,Debit Card,Female,2,Married,0,11,3,6,5,167
+29,14,Debit Card,Male,3,Single,0,16,2,6,7,271
+0,24,Debit Card,Male,3,Married,0,11,1,1,2,162
+0,16,E wallet,Female,3,Married,1,11,1,4,4,158
+4,14,Debit Card,Female,3,Single,0,11,1,1,0,264
+7,7,UPI,Male,3,Married,0,14,1,1,3,130
+0,7,Debit Card,Female,3,Single,0,11,1,4,7,174
+26,8,Credit Card,Male,2,Single,0,12,1,6,8,266
+15,15,Credit Card,Female,3,Single,0,13,0,5,8,137
+9,13,Cash on Delivery,Male,3,Married,0,13,0,1,0,113
+20,20,Credit Card,Female,3,Married,1,17,1,1,2,146
+9,7,Debit Card,Male,3,Married,0,14,0,1,0,116
+19,9,Debit Card,Female,2,Married,0,12,1,5,1,266
+9,15,Debit Card,Male,2,Single,0,14,1,1,0,120
+5,11,Debit Card,Female,3,Married,0,12,1,2,5,159
+2,9,Credit Card,Male,2,Single,1,18,0,1,5,147
+16,33,Cash on Delivery,Male,2,Married,0,12,1,1,2,149
+19,7,Debit Card,Male,2,Single,0,15,1,1,12,271
+23,26,Credit Card,Male,2,Married,1,15,0,6,3,212
+9,18,Debit Card,Female,3,Married,1,12,0,1,1,147
+8,24,Debit Card,Male,2,Married,0,11,1,1,10,152
+0,16,Credit Card,Male,2,Married,0,17,0,6,0,203
+0,21,Credit Card,Male,2,Married,1,14,0,2,2,154
+22,28,UPI,Female,3,Married,0,16,1,1,2,264
+0,8,Credit Card,Female,3,Single,0,19,0,2,2,128
+9,9,Debit Card,Male,3,Married,0,20,0,1,4,168
+2,11,Credit Card,Male,2,Married,1,13,0,1,9,142
+14,29,Debit Card,Male,3,Single,1,16,0,1,2,171
+6,22,Debit Card,Female,2,Married,1,25,0,1,2,154
+0,14,Credit Card,Male,3,Single,0,20,0,5,7,126
+7,25,Debit Card,Female,3,Married,0,12,1,6,7,129
+14,12,E wallet,Male,2,Single,0,12,3,6,7,192
+18,7,Debit Card,Male,3,Married,0,23,3,6,4,207
+9,28,UPI,Male,2,Married,0,11,0,1,0,116
+13,14,Debit Card,Female,3,Married,1,16,1,1,0,165
+3,22,Debit Card,Male,3,Married,0,12,0,1,8,129
+13,13,Credit Card,Male,2,Single,0,16,3,6,8,271
+22,17,E wallet,Female,3,Single,0,12,0,1,4,145
+6,10,Cash on Delivery,Male,3,Married,0,15,0,1,7,131
+24,9,Cash on Delivery,Female,2,Married,0,11,2,2,3,231
+10,15,E wallet,Male,2,Married,0,14,1,1,3,142
+19,8,Credit Card,Male,2,Married,1,16,2,2,2,271
+7,14,Credit Card,Male,3,Married,1,12,2,2,3,123
+10,14,UPI,Male,2,Married,0,13,3,4,7,141
+12,26,Debit Card,Male,2,Married,0,18,1,2,2,141
+14,10,E wallet,Female,2,Married,1,13,3,6,5,204
+0,16,Credit Card,Male,2,Single,0,13,1,1,2,147
+0,24,UPI,Male,3,Married,0,17,1,1,0,130
+9,15,Debit Card,Female,3,Single,0,12,0,2,0,121
+0,14,Debit Card,Male,3,Single,1,23,1,1,0,125
+1,7,Debit Card,Male,2,Married,1,12,1,1,7,168
+11,15,Debit Card,Male,3,Married,0,19,0,1,3,148
+4,8,Credit Card,Female,2,Married,1,11,0,1,0,111
+27,16,Credit Card,Female,3,Single,1,19,0,1,4,144
+20,7,Credit Card,Female,3,Married,0,18,0,5,3,220
+0,7,Debit Card,Male,3,Single,0,12,1,1,2,134
+0,14,UPI,Female,2,Married,1,22,0,1,4,149
+8,32,Debit Card,Female,2,Single,1,16,1,1,7,188
+13,8,Debit Card,Male,3,Single,0,14,0,2,2,128
+9,14,Credit Card,Male,2,Married,0,17,0,1,3,126
+1,13,Credit Card,Male,3,Single,0,12,2,2,4,155
+1,27,Debit Card,Female,4,Divorced,1,12,2,3,3,171
+19,16,Debit Card,Male,3,Married,0,19,2,2,14,148
+1,10,Credit Card,Male,4,Married,1,16,1,2,2,151
+15,21,Debit Card,Male,3,Married,0,13,2,2,9,150
+4,16,Credit Card,Male,4,Married,0,12,1,6,11,156
+8,34,Credit Card,Female,4,Single,0,16,2,2,3,148
+8,9,Debit Card,Male,3,Divorced,0,18,1,2,3,220
+26,7,Debit Card,Male,4,Divorced,0,15,2,6,10,271
+19,9,Credit Card,Male,4,Divorced,0,16,3,6,9,271
+2,36,Credit Card,Male,4,Divorced,1,20,1,2,1,192
+3,7,Credit Card,Female,3,Divorced,0,15,3,5,2,204
+7,12,Debit Card,Female,4,Divorced,0,14,1,2,3,154
+8,9,Debit Card,Male,3,Divorced,0,14,1,6,10,185
+3,27,E wallet,Male,3,Married,0,15,2,2,3,194
+1,7,Debit Card,Female,4,Divorced,0,13,2,2,3,174
+14,9,Credit Card,Male,3,Married,0,16,1,4,10,271
+24,11,Debit Card,Male,4,Married,0,16,2,2,7,271
+25,9,Credit Card,Male,3,Married,0,19,1,2,3,180
+5,12,Cash on Delivery,Male,3,Divorced,1,13,1,2,4,173
+7,12,Debit Card,Female,4,Divorced,0,12,3,2,9,244
+1,15,UPI,Male,4,Divorced,1,12,2,2,8,146
+9,12,Cash on Delivery,Male,4,Single,0,14,1,2,14,206
+1,7,Cash on Delivery,Female,3,Single,1,12,2,2,3,147
+11,17,Credit Card,Female,4,Divorced,0,21,2,2,4,160
+2,16,Debit Card,Male,4,Single,0,17,2,2,8,178
+1,10,Cash on Delivery,Male,4,Single,0,23,1,2,5,156
+16,7,Debit Card,Female,4,Married,0,17,2,2,3,151
+28,12,Credit Card,Male,3,Divorced,0,16,2,2,3,271
+5,14,Credit Card,Female,3,Divorced,0,13,3,4,13,168
+17,15,UPI,Female,4,Married,1,15,1,2,3,170
+4,19,Cash on Delivery,Female,3,Single,0,12,3,5,5,191
+1,10,Credit Card,Male,4,Divorced,0,14,2,2,3,165
+31,14,Debit Card,Female,3,Divorced,0,16,1,6,11,271
+4,9,Credit Card,Female,3,Single,0,15,3,6,8,151
+28,15,Debit Card,Female,3,Single,0,12,2,2,1,163
+10,17,Credit Card,Male,3,Single,0,15,2,6,3,225
+1,24,Debit Card,Female,3,Married,1,12,1,2,1,152
+20,25,Credit Card,Female,3,Divorced,0,12,2,2,3,230
+16,9,Debit Card,Female,3,Divorced,0,14,3,3,3,166
+28,26,Credit Card,Male,3,Divorced,0,16,3,2,2,232
+27,14,Debit Card,Male,3,Divorced,0,20,1,2,4,271
+31,23,E wallet,Male,3,Single,0,15,2,3,3,179
+1,7,Debit Card,Female,4,Single,1,14,2,4,8,147
+1,7,UPI,Male,4,Single,1,14,3,6,9,152
+19,9,Credit Card,Male,4,Divorced,1,14,2,2,5,271
+1,7,Debit Card,Female,4,Married,0,15,3,3,1,169
+8,15,Debit Card,Female,4,Divorced,0,18,2,2,3,190
+16,7,Debit Card,Female,3,Divorced,1,14,1,2,3,186
+12,19,Debit Card,Male,3,Married,0,16,2,2,3,188
+25,33,E wallet,Female,4,Divorced,0,15,1,5,14,271
+9,34,Credit Card,Female,3,Single,0,12,2,2,2,151
+6,15,Credit Card,Female,4,Divorced,0,13,2,2,4,177
+10,15,Debit Card,Male,4,Divorced,0,22,2,2,4,148
+9,16,Debit Card,Female,4,Divorced,1,21,3,2,14,232
+23,7,Cash on Delivery,Female,3,Divorced,0,17,2,2,3,161
+6,12,Debit Card,Male,3,Divorced,0,15,3,6,4,190
+18,16,Debit Card,Male,4,Divorced,1,14,3,6,2,151
+1,10,Debit Card,Female,3,Divorced,1,20,2,2,3,167
+2,16,Credit Card,Female,4,Married,0,19,3,3,3,149
+5,14,Debit Card,Male,3,Divorced,0,16,3,6,3,148
+23,15,UPI,Female,3,Divorced,0,12,1,2,8,199
+1,26,E wallet,Male,3,Divorced,1,19,1,2,1,149
+10,9,Credit Card,Male,4,Single,0,22,3,4,10,150
+3,27,Cash on Delivery,Female,3,Divorced,0,16,1,2,3,147
+12,17,Cash on Delivery,Female,3,Single,1,14,1,2,4,182
+15,16,Credit Card,Male,4,Married,0,16,2,2,12,271
+15,14,Credit Card,Female,3,Single,0,15,2,3,2,175
+1,9,Debit Card,Female,3,Divorced,0,19,1,3,3,167
+2,17,Credit Card,Male,4,Divorced,0,23,2,2,1,136
+14,33,E wallet,Male,4,Divorced,0,15,3,6,6,209
+10,19,Credit Card,Female,3,Single,0,12,3,6,3,214
+17,32,Credit Card,Male,4,Married,0,14,2,2,1,259
+1,15,Debit Card,Male,3,Divorced,0,20,2,2,3,171
+1,11,Cash on Delivery,Male,3,Single,1,23,3,5,3,221
+1,11,Cash on Delivery,Male,3,Divorced,1,16,3,6,7,162
+1,7,Cash on Delivery,Female,4,Single,1,12,1,3,3,146
+8,9,Debit Card,Male,4,Single,0,12,2,2,3,165
+1,15,Credit Card,Male,4,Single,0,13,1,2,1,144
+14,16,Credit Card,Female,3,Single,0,18,1,2,14,260
+8,7,Credit Card,Male,4,Single,0,21,2,5,10,178
+7,16,E wallet,Female,3,Single,0,14,2,2,4,178
+14,9,Credit Card,Male,4,Divorced,0,13,2,2,1,168
+1,24,Debit Card,Female,4,Divorced,0,14,1,2,1,147
+7,16,Credit Card,Male,3,Divorced,0,14,2,5,11,153
+14,17,Cash on Delivery,Female,3,Married,0,13,2,2,4,194
+1,21,Debit Card,Male,3,Divorced,1,15,3,6,9,147
+1,17,Credit Card,Female,4,Single,1,25,2,2,1,144
+1,14,Cash on Delivery,Female,3,Married,1,14,2,6,8,158
+1,7,Credit Card,Female,3,Single,0,19,2,3,2,146
+9,11,Debit Card,Male,3,Single,1,12,2,2,2,167
+1,26,Credit Card,Male,4,Divorced,0,12,2,2,3,162
+21,14,Credit Card,Female,3,Divorced,1,15,3,6,3,225
+19,20,E wallet,Male,3,Single,1,18,1,4,9,262
+14,9,Credit Card,Female,3,Married,0,21,3,6,9,189
+1,24,Debit Card,Female,3,Single,1,14,3,6,8,149
+29,7,Credit Card,Male,3,Married,0,14,1,2,1,271
+1,7,Debit Card,Female,3,Single,0,13,2,2,1,139
+10,11,Debit Card,Male,3,Single,0,17,2,2,9,183
+14,16,UPI,Male,3,Married,0,12,2,2,8,165
+19,36,Cash on Delivery,Male,3,Divorced,1,19,2,2,3,219
+7,14,Credit Card,Male,3,Divorced,0,15,1,2,4,169
+18,7,E wallet,Female,4,Divorced,0,13,2,2,1,173
+1,20,Debit Card,Female,4,Divorced,0,14,1,2,1,145
+3,26,Debit Card,Male,4,Married,0,15,2,2,3,211
+1,7,Debit Card,Male,4,Married,0,12,3,6,3,222
+3,9,Debit Card,Male,3,Married,0,20,1,2,3,214
+4,14,Credit Card,Male,3,Married,0,13,1,2,2,146
+1,26,UPI,Male,4,Married,0,12,1,2,8,166
+1,9,Credit Card,Male,3,Single,0,14,1,2,3,151
+3,17,Credit Card,Male,3,Single,0,12,2,2,5,184
+23,29,UPI,Female,4,Married,0,17,1,2,3,271
+17,22,Debit Card,Male,4,Married,0,16,3,6,12,271
+5,12,Debit Card,Female,4,Married,0,12,1,2,3,180
+1,15,Credit Card,Male,4,Single,1,12,2,2,3,165
+12,11,Credit Card,Female,3,Married,0,20,1,2,1,158
+1,9,Debit Card,Male,4,Single,0,13,2,2,1,139
+1,24,Credit Card,Male,4,Married,0,16,1,2,3,148
+15,11,UPI,Male,3,Married,0,20,1,2,3,189
+19,11,Debit Card,Female,3,Married,0,22,2,2,3,223
+5,12,Cash on Delivery,Male,3,Married,0,20,1,2,3,208
+3,7,Debit Card,Male,4,Single,1,13,1,2,3,188
+7,9,E wallet,Female,4,Single,0,16,1,2,8,176
+15,16,Debit Card,Male,4,Married,0,21,2,2,5,148
+17,9,Debit Card,Male,4,Single,0,14,1,2,9,160
+1,15,Credit Card,Female,4,Married,1,18,1,2,1,149
+1,34,Debit Card,Male,3,Single,1,19,1,6,8,183
+9,9,Credit Card,Male,3,Married,0,15,1,2,8,183
+2,7,Credit Card,Female,4,Married,0,25,2,2,3,161
+19,9,Debit Card,Female,4,Married,0,23,3,6,8,177
+1,12,Debit Card,Female,3,Single,1,15,2,2,3,149
+21,16,Debit Card,Female,4,Single,0,13,2,3,1,146
+1,31,Debit Card,Male,4,Single,1,25,2,2,1,149
+1,16,Credit Card,Male,3,Single,0,14,1,2,1,136
+1,14,Debit Card,Male,4,Single,1,24,2,2,1,150
+10,17,Cash on Delivery,Female,4,Married,1,14,2,2,8,182
+1,23,Cash on Delivery,Male,3,Married,1,24,3,4,1,148
+5,11,Credit Card,Female,4,Married,0,13,3,3,3,165
+21,21,Cash on Delivery,Male,4,Married,0,19,1,2,8,180
+12,15,Credit Card,Female,3,Married,1,17,2,2,8,146
+1,7,Debit Card,Male,3,Single,0,13,2,2,3,171
+14,18,Cash on Delivery,Female,4,Married,0,12,3,6,5,188
+4,7,Credit Card,Male,4,Married,0,14,1,2,8,162
+21,32,Credit Card,Male,3,Single,0,24,2,6,3,211
+9,18,Credit Card,Male,3,Married,1,12,1,3,3,152
+6,7,Credit Card,Male,4,Married,0,15,1,3,3,148
+14,7,Debit Card,Male,4,Married,0,13,2,2,2,192
+10,18,E wallet,Female,4,Married,0,14,2,2,1,192
+3,20,UPI,Male,3,Married,1,14,2,2,4,165
+31,10,Credit Card,Female,3,Married,1,21,1,2,1,152
+10,34,Credit Card,Male,4,Married,0,14,1,6,8,177
+8,26,Credit Card,Male,4,Married,0,12,1,2,3,152
+1,13,Credit Card,Male,3,Single,0,12,1,2,4,155
+17,9,Credit Card,Female,4,Married,0,13,2,2,5,151
+1,9,Debit Card,Female,3,Married,0,14,2,2,1,148
+1,32,Debit Card,Male,3,Single,0,13,1,2,2,148
+3,9,Debit Card,Male,4,Married,0,24,2,2,5,152
+5,15,Debit Card,Female,4,Single,0,24,2,2,9,169
+29,7,Debit Card,Male,4,Married,0,15,1,2,3,227
+30,14,Debit Card,Male,3,Single,0,12,1,2,3,198
+6,13,Credit Card,Male,3,Single,0,17,3,6,8,175
+10,18,Cash on Delivery,Female,4,Married,0,15,1,3,3,222
+15,16,Debit Card,Male,4,Married,1,14,1,2,8,207
+10,13,Credit Card,Male,3,Married,0,21,1,2,2,174
+1,10,Credit Card,Female,4,Single,0,15,2,2,1,140
+14,33,Credit Card,Female,3,Married,0,12,1,3,14,181
+19,16,Debit Card,Male,3,Married,0,19,2,2,14,148
+1,16,Credit Card,Male,3,Married,0,19,3,3,3,145
+24,7,Credit Card,Male,3,Married,0,16,2,2,3,162
+27,20,Credit Card,Female,3,Married,0,12,2,2,4,170
+11,28,Debit Card,Male,4,Married,1,13,2,2,8,161
+1,7,Cash on Delivery,Male,3,Married,0,20,3,3,1,168
+5,7,Credit Card,Male,3,Married,0,13,1,2,5,168
+11,11,E wallet,Male,3,Married,0,18,3,6,9,153
+16,11,Cash on Delivery,Male,3,Married,0,16,1,6,14,271
+25,7,Debit Card,Male,4,Married,0,12,2,2,1,152
+12,9,Debit Card,Male,3,Married,0,19,2,6,6,177
+9,29,Debit Card,Female,4,Married,0,19,3,2,3,245
+10,10,Cash on Delivery,Male,2,Single,0,13,3,6,8,170
+11,16,Credit Card,Male,3,Married,1,13,1,2,3,148
+16,33,E wallet,Female,4,Married,0,15,3,2,9,260
+2,23,Credit Card,Male,4,Single,0,20,1,2,8,182
+13,14,Credit Card,Male,3,Married,0,16,3,6,4,271
+1,15,UPI,Male,4,Married,1,12,1,2,8,146
+12,22,Debit Card,Male,4,Married,1,15,3,2,10,240
+21,11,Credit Card,Male,4,Single,0,20,1,2,1,155
+16,30,Debit Card,Female,3,Single,0,15,1,2,1,271
+1,26,E wallet,Male,4,Single,1,14,1,2,5,178
+4,9,Cash on Delivery,Male,4,Married,0,19,2,2,1,150
+14,9,E wallet,Female,3,Married,0,13,1,2,4,182
+17,19,Debit Card,Male,3,Married,0,12,1,4,10,268
+12,9,Debit Card,Male,3,Married,1,24,2,2,1,142
+31,36,E wallet,Male,3,Married,0,13,1,2,1,266
+9,29,Debit Card,Male,3,Single,0,16,2,5,4,167
+28,6,Debit Card,Female,3,Single,0,12,1,2,1,163
+10,17,Credit Card,Male,3,Single,0,15,3,6,3,225
+5,9,Debit Card,Male,4,Single,1,14,2,2,6,191
+15,9,Debit Card,Female,4,Married,0,17,1,6,9,271
+26,13,Cash on Delivery,Male,4,Married,1,13,3,6,10,181
+1,24,UPI,Male,4,Married,0,22,2,2,1,146
+1,13,Credit Card,Female,4,Married,0,13,1,2,4,147
+16,9,Debit Card,Female,3,Married,0,14,1,3,3,166
+10,16,Credit Card,Male,3,Married,1,12,1,2,3,213
+3,7,Debit Card,Male,4,Married,0,19,1,3,9,152
+21,21,E wallet,Male,3,Single,0,13,2,2,8,175
+18,31,Credit Card,Male,3,Single,0,15,1,2,5,162
+6,31,Debit Card,Male,4,Married,0,16,2,5,8,178
+26,10,E wallet,Male,3,Married,0,16,2,2,14,271
+1,17,Credit Card,Male,4,Single,0,19,1,2,3,160
+1,7,Debit Card,Female,4,Married,0,15,3,3,1,169
+1,15,E wallet,Male,3,Married,0,20,2,2,2,168
+9,7,Debit Card,Female,3,Single,0,14,3,3,3,150
+14,23,Credit Card,Male,3,Single,0,15,1,2,1,176
+12,19,Debit Card,Male,1,Married,0,16,2,2,3,188
+6,20,Debit Card,Male,4,Married,0,12,1,2,4,169
+4,12,Debit Card,Male,4,Married,0,13,1,2,4,163
+12,7,Cash on Delivery,Female,4,Married,0,14,3,6,12,261
+15,13,Credit Card,Male,3,Single,1,14,2,3,14,172
+14,16,Credit Card,Male,3,Married,1,15,1,2,1,161
+27,9,Credit Card,Male,3,Married,0,14,1,6,3,271
+4,15,UPI,Male,4,Married,0,12,3,6,8,198
+21,23,Credit Card,Male,4,Married,1,20,2,3,8,176
+1,18,Credit Card,Female,4,Married,0,16,2,2,1,173
+10,19,Credit Card,Female,3,Single,0,12,3,6,3,214
+15,11,Debit Card,Male,3,Married,1,13,1,3,8,150
+29,9,Debit Card,Male,4,Married,0,19,1,2,3,235
+1,11,Cash on Delivery,Male,3,Single,1,23,3,5,3,221
+11,17,Debit Card,Female,3,Married,1,15,2,2,1,192
+1,32,Credit Card,Male,3,Single,1,21,2,3,3,148
+3,35,Debit Card,Female,4,Married,0,23,2,2,8,150
+13,16,Debit Card,Male,4,Single,0,16,2,2,4,193
+23,15,Cash on Delivery,Male,3,Married,0,18,2,2,4,256
+8,9,Debit Card,Male,4,Single,0,12,2,2,3,165
+3,15,Credit Card,Male,4,Married,1,16,2,2,3,176
+9,7,Credit Card,Male,3,Married,0,13,2,2,8,148
+7,16,E wallet,Female,3,Single,0,14,1,2,4,178
+1,6,Debit Card,Male,3,Single,0,13,1,2,3,155
+1,28,E wallet,Male,3,Single,0,18,3,3,3,152
+10,10,Cash on Delivery,Male,3,Married,0,13,1,2,8,162
+8,22,Credit Card,Female,4,Married,0,12,1,2,6,205
+2,8,Cash on Delivery,Male,3,Single,0,12,2,2,3,146
+13,25,Debit Card,Male,3,Single,0,12,2,2,8,170
+7,12,Debit Card,Male,4,Married,0,14,2,2,3,225
+26,15,UPI,Female,3,Married,0,14,2,2,5,155
+11,12,Cash on Delivery,Male,3,Single,0,15,1,2,4,160
+14,16,UPI,Male,3,Married,0,12,1,2,8,165
+27,9,Credit Card,Male,3,Single,0,13,1,6,9,271
+18,27,Debit Card,Male,3,Single,0,14,2,2,4,159
+8,10,UPI,Male,3,Single,0,19,3,4,13,173
+1,31,Credit Card,Female,3,Single,1,24,3,6,11,171
+4,16,Debit Card,Male,3,Single,0,15,2,2,1,145
+3,15,UPI,Female,3,Married,0,14,2,2,3,222
+7,35,Debit Card,Male,4,Married,1,13,3,6,8,177
+14,13,Credit Card,Male,3,Single,1,22,1,6,8,271
+22,23,Debit Card,Female,4,Married,0,15,3,6,8,189
+3,16,Debit Card,Male,4,Married,0,19,1,2,1,150
+12,23,Debit Card,Female,3,Single,0,13,2,2,3,167
+9,17,Credit Card,Female,3,Single,1,17,1,2,5,186
+8,17,Debit Card,Male,3,Married,0,14,3,6,3,172
+21,33,Debit Card,Female,4,Married,0,16,2,2,1,271
+11,26,Debit Card,Male,3,Married,0,18,1,2,3,183
+1,22,Credit Card,Male,3,Married,1,15,1,3,3,179
+1,9,Credit Card,Female,3,Single,0,20,1,3,3,153
+8,10,Debit Card,Female,4,Married,0,13,2,6,10,179
+10,14,Debit Card,Male,4,Single,0,12,1,2,4,145
+10,8,Credit Card,Female,3,Married,0,16,1,2,3,169
+17,22,Debit Card,Male,4,Married,0,16,3,6,12,271
+23,23,Credit Card,Female,4,Married,1,17,1,3,3,151
+1,15,Credit Card,Male,4,Single,1,12,2,2,3,165
+19,8,Debit Card,Male,4,Married,0,24,3,2,5,232
+14,14,Credit Card,Male,3,Single,0,15,3,6,9,271
+6,12,Cash on Delivery,Male,4,Single,0,15,2,2,8,152
+12,25,Credit Card,Male,3,Married,1,17,1,2,1,183
+29,9,Credit Card,Male,3,Married,0,16,2,2,1,271
+17,9,Debit Card,Male,4,Single,0,14,2,2,9,160
+14,9,Debit Card,Female,4,Married,0,18,2,2,3,159
+19,9,Debit Card,Female,4,Married,0,23,3,6,8,177
+20,9,Debit Card,Male,3,Married,0,15,1,5,3,211
+3,36,Debit Card,Male,4,Married,0,18,1,2,7,189
+1,31,Cash on Delivery,Male,3,Single,0,18,1,2,1,136
+30,18,E wallet,Female,3,Married,0,17,1,2,1,179
+5,8,Debit Card,Male,3,Married,0,22,3,6,8,175
+9,14,Debit Card,Female,3,Married,1,12,2,2,10,177
+5,9,Debit Card,Male,3,Married,0,20,1,2,3,156
+9,18,Credit Card,Male,3,Married,1,12,3,3,3,152
+30,8,Debit Card,Male,3,Married,0,22,1,2,10,188
+16,9,Debit Card,Male,3,Married,0,16,1,5,14,271
+15,35,Debit Card,Female,3,Married,0,24,2,2,11,261
+14,9,Credit Card,Female,4,Married,0,15,1,2,3,145
+3,35,Credit Card,Female,4,Single,0,15,1,2,5,163
+1,11,Debit Card,Male,3,Married,1,21,1,2,4,186
