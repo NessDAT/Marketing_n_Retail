@@ -28,7 +28,7 @@ outter_css = """
 # Creating the sidebar menu-------------------------------------------------------------------------------------------------------------
 with st.sidebar:
     selected = option_menu("Marketing & Retail", ["About", "Churn Prediction","Market Segmentation", "Market Basket Analysis", "Review Classfication", 
-                        "Lifetime Value",],
+                        "Demand Forecasting",],
                          icons=['journal-bookmark-fill', 'person-circle', 'diagram-3-fill', 'cart-check','chat-square-text', 
                          'graph-up-arrow'],
                          menu_icon="shop", default_index=0,
@@ -37,7 +37,7 @@ with st.sidebar:
     st.markdown("###")
     
 
-    st.markdown("<a href='https://vanessaattafynn-demo-demo-site-at0bqf.streamlitapp.com/'>\
+    st.markdown("<a href='https://datawaredemo.azurewebsites.net/'>\
             <button class='b1' style='background-color:#F35106;color:white; border:None;border-radius:10px;\
             padding:15px;min-height:15px;min-width: 80px;' type='button'>\
             Go Home  <i class='bi bi-box-arrow-up-right'></i></button></a>",unsafe_allow_html=True)
@@ -73,7 +73,47 @@ def get_feature_importances_df(pycaret_pipeline, sample_df, n = 10):
 # THIS IS THE ABOUT SECTION
 #------------------------------------------------------------------------------------------------------------------------
 if selected == "About":
-    st.subheader("About Page")
+    col1, col2= st.columns(2)
+
+    with col1:
+        st.subheader("Introduction")
+        st.markdown("<p style='text-align:justify;font-size:20px;font-family:helvetica;'> \
+            Artificial intelligence (AI) and machine learning (ML) significantly impact the\
+             retail world, particularly for companies that rely on online sales, where using\
+              some kind of AI technology is very common nowadays. Big players like eBay,\
+               Amazon or Alibaba have successfully integrated AI across the entire sales\
+                cycle, from storage logistics to post-sale customer service.</p>",
+                    unsafe_allow_html=True)
+
+        st.markdown("<p style='text-align:justify;font-size:20px;font-family:helvetica;'>\
+            From clothes to groceries to household items, the possibilities in the \
+            retail space are full of promise. The use cases presented in here \
+            are a fraction of the feasible Machine Learning projects and serve as \
+            examples of what can be done today in the Retail space. That being said, \
+            many companies have very unique needs that could be served with data and \
+            custom Machine Learning development.</p>",
+            unsafe_allow_html=True)
+
+        st.markdown("##")
+        st.markdown("##")
+
+    with col2:
+        st.markdown("#")
+        st.image("images/girl.png")
+
+    st.markdown("###")
+
+    st.subheader("Use Cases Being Tackled In This Platform")
+
+    st.markdown("<ul>\
+            <li style='font-size:20px;font-family:helvetica;'>Ecommerce Churn Prediction</li>\
+            <li style='font-size:20px;font-family:helvetica;'>Market Segmentation</li>\
+            <li style='font-size:20px;font-family:helvetica;'>Market Basket Analysis</li>\
+            <li style='font-size:20px;font-family:helvetica;'>Review Classfication</li>\
+            <li style='font-size:20px;font-family:helvetica;'>Demand Forecasting</li>\
+        </ul>\
+        </p>",
+        unsafe_allow_html=True)
 
 
 
@@ -118,7 +158,7 @@ if selected == "Churn Prediction":
                 'Gender':[gender],'MaritalStatus':[maritalStatus]}
                 data = pd.DataFrame.from_dict(data)
 
-                loaded_model2 = load_model('data/Churn_Model2')
+                loaded_model2 = load_model('Churn/models/Churn_Model2')
                 pred_data = predict_model(loaded_model2, data=data)
                 pred_data.rename(columns={"Label":"PredictedChurn","Score":"PredictionConfidence"},inplace=True)
 
@@ -165,7 +205,7 @@ if selected == "Churn Prediction":
             if st.button('Submit'):
                 st.markdown("____")
                 st.subheader("E-commerce Churn Prediction")
-                loaded_model = load_model("data/Churn_Model2")
+                loaded_model = load_model("Churn/models/Churn_Model2")
                 pred_df = predict_model(loaded_model, data=df)
                 pred_df.rename(columns={"Label":"PredictedChurn","Score":"PredictionConfidence"},inplace=True)
                 pred_df['Target'] = pred_df["PredictedChurn"]
