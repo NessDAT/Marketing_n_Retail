@@ -99,7 +99,7 @@ if selected == "About":
 
     with col2:
         st.markdown("#")
-        st.image("images/girl.png")
+        st.image("data/girl.png")
 
     st.markdown("###")
 
@@ -158,7 +158,7 @@ if selected == "Churn Prediction":
                 'Gender':[gender],'MaritalStatus':[maritalStatus]}
                 data = pd.DataFrame.from_dict(data)
 
-                loaded_model2 = load_model('Churn/models/Churn_Model2')
+                loaded_model2 = load_model('data/Churn_Model2')
                 pred_data = predict_model(loaded_model2, data=data)
                 pred_data.rename(columns={"Label":"PredictedChurn","Score":"PredictionConfidence"},inplace=True)
 
@@ -205,7 +205,7 @@ if selected == "Churn Prediction":
             if st.button('Submit'):
                 st.markdown("____")
                 st.subheader("E-commerce Churn Prediction")
-                loaded_model = load_model("Churn/models/Churn_Model2")
+                loaded_model = load_model("data/Churn_Model2")
                 pred_df = predict_model(loaded_model, data=df)
                 pred_df.rename(columns={"Label":"PredictedChurn","Score":"PredictionConfidence"},inplace=True)
                 pred_df['Target'] = pred_df["PredictedChurn"]
