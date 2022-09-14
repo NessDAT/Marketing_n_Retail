@@ -1,4 +1,6 @@
 import streamlit as st
+from streamlit_lottie import st_lottie
+import requests
 from streamlit_option_menu import option_menu
 import streamlit.components.v1 as html
 from  PIL import Image
@@ -6,6 +8,19 @@ import numpy as np
 import pandas as pd
 from pycaret.classification import *
 import plotly.express as px
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly
+import plotly.io as pio
+import plotly.graph_objects as go
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
+import re
+
+
+
+
 
 
 
@@ -69,6 +84,17 @@ def get_feature_importances_df(pycaret_pipeline, sample_df, n = 10):
         .sort_values(by="Value", ascending=True).reset_index(drop=True)
     )
     return sorted_df
+
+
+
+
+
+
+
+
+
+
+
 #-----------------------------------------------------------------------------------------------------------------------
 # THIS IS THE ABOUT SECTION
 #------------------------------------------------------------------------------------------------------------------------
@@ -99,7 +125,7 @@ if selected == "About":
 
     with col2:
         st.markdown("#")
-        st.image("data/girl.png")
+        st.image("images/girl.png")
 
     st.markdown("###")
 
@@ -114,6 +140,14 @@ if selected == "About":
         </ul>\
         </p>",
         unsafe_allow_html=True)
+
+
+
+
+
+
+
+
 
 
 
@@ -158,7 +192,7 @@ if selected == "Churn Prediction":
                 'Gender':[gender],'MaritalStatus':[maritalStatus]}
                 data = pd.DataFrame.from_dict(data)
 
-                loaded_model2 = load_model('data/Churn_Model2')
+                loaded_model2 = load_model('Churn/models/Churn_Model2')
                 pred_data = predict_model(loaded_model2, data=data)
                 pred_data.rename(columns={"Label":"PredictedChurn","Score":"PredictionConfidence"},inplace=True)
 
@@ -205,7 +239,7 @@ if selected == "Churn Prediction":
             if st.button('Submit'):
                 st.markdown("____")
                 st.subheader("E-commerce Churn Prediction")
-                loaded_model = load_model("data/Churn_Model2")
+                loaded_model = load_model("Churn/models/Churn_Model2")
                 pred_df = predict_model(loaded_model, data=df)
                 pred_df.rename(columns={"Label":"PredictedChurn","Score":"PredictionConfidence"},inplace=True)
                 pred_df['Target'] = pred_df["PredictedChurn"]
@@ -244,7 +278,14 @@ if selected == "Churn Prediction":
 #-----------------------------------------------------------------------------------------------------------------------
 # THIS IS THE MARKET SEGMENTATION SECTION
 #------------------------------------------------------------------------------------------------------------------------
+if selected == "Market Segmentation":
+    expander1 = st.expander('Upload your dataset')
+    uploaded_file = expander1.file_uploader(".", type=["csv"])
+    if uploaded_file is not None:
+        df = pd.read_csv(uploaded_file)
 
+    if uploaded_file is not None:
+        st.write(df)
 
 
 
@@ -259,6 +300,257 @@ if selected == "Churn Prediction":
 #-----------------------------------------------------------------------------------------------------------------------
 # THIS IS THE REVIEW CLASSIFICAITION SECTION
 #------------------------------------------------------------------------------------------------------------------------
+if selected == "Review Classfication":
+    choose = option_menu(None,["Appeciation Details","Sentiment Analysis"],
+        icons=['person-rolodex', 'grid-3x3-gap-fill'],default_index=0,orientation="horizontal")
+
+    #--------------------------------------------------------------------------------------------------------------------
+    # APPECIATION DETAILS
+    #--------------------------------------------------------------------------------------------------------------------
+
+    if choose == "Appeciation Details":
+        df = pd.read_csv("data/product_data.csv")
+
+        #---------------------------------------------------------------------------------------------------------------
+        #  TOP KPIs
+        #---------------------------------------------------------------------------------------------------------------
+
+        rev_col,price_col,rating_col,pdts_col = st.columns([0.5,0.7,1,3.7])
+
+        rev_col.markdown("**Reviews**")
+        price_col.markdown("**Average Price**")
+        rating_col.markdown("**Average Star Rating**")
+            
+        #--Multiselector-----------------------------------
+
+        select_pdt = pdts_col.multiselect('Products',options=df['product'].unique(),default=['Fire Tablet','Amazon Fire Tv'])
+        df_selection = df.query("product == @select_pdt")
+        num_pdt_selected = df_selection['product'].nunique()
+
+
+        #---Number of Reviews-------------------------------
+        num_reviews = df_selection['id'].count()
+        rev_col.subheader(num_reviews)
+
+        #---Avg Price---------------------------------------
+        avg_price = round(df_selection['price'].mean(),2)
+        price_col.subheader(f" $ {avg_price}")
+
+        #--Star Ratings ------------------------------------
+        avg_rating = round(df_selection['rating'].mean(),1)
+        star_rating = ":star:"*int(round(avg_rating,0))
+        rating_col.subheader(star_rating)
+
+
+        st.markdown("____")
+
+
+        fake_connect = st.button("Connect to Database")
+        st.markdown("#")
+
+        ratingXprice,gap,ratingXpdt = st.columns([2,0.1,2])
+
+        #-------------------------------------------------------------------------------------------------------------
+        # PIE CHART FOR TOTAL NUMBER OF REVIEWS BY PRODUCT
+        #-------------------------------------------------------------------------------------------------------------
+
+
+
+        if fake_connect:
+            ratingXprice.subheader("Review Distribution by Products")
+            ratingXprice.markdown(f"( *Number of Products* : {num_pdt_selected} **SELECTED** )")
+            fig_product_reviews = px.pie(
+                df_selection,
+                names="product",
+                hole=0.5,
+                color_discrete_sequence=px.colors.sequential.RdBu,
+                template= "plotly_white"
+            )
+
+
+            colors = ['orangered']
+            fig_product_reviews.update_traces(rotation=115,marker=dict(colors=colors))
+            fig_product_reviews.update_layout(width=600,height=550)
+            ratingXprice.plotly_chart(fig_product_reviews)
+
+        else:
+            st.warning('Empty Dashboard. Please Connect to Database')
+            
+        
+
+        #-------------------------------------------------------------------------------------------------------------
+        # HORIZONTAL BAR CHART FOR AVERAGE RATING BY PRODUCT
+        #-------------------------------------------------------------------------------------------------------------
+
+        if fake_connect:
+            ratingXpdt.subheader("Average Ratings by Products")
+            ratingXpdt.markdown(f"( *Number of Products* : {num_pdt_selected} **SELECTED** )")
+            rating_by_pdt = (
+                df_selection.groupby(by=["product"]).mean()[['rating']]
+            )
+
+            fig_product_ratings = px.bar(
+                rating_by_pdt,
+                x="rating",
+                y=rating_by_pdt.index,
+                text_auto=True,
+                color_discrete_sequence=["#F35106"]*len(rating_by_pdt),
+                template= "plotly_white"
+            )
+
+            #fig_product_ratings.update_layout(width=600,height=300,margin=dict(l=1,r=1,b=1,t=1))
+            ratingXpdt.plotly_chart(fig_product_ratings)
+
+
+        #-------------------------------------------------------------------------------------------------------------
+        # VERTICAL BAR CHART FOR AVERAGE PRICE BY PRODUCT
+        #-------------------------------------------------------------------------------------------------------------
+
+
+        if fake_connect:
+            st.subheader("Distribution of Prices for each Product")
+            st.markdown("**Average Price of Products in USD**   ( *Number of Products* : **ALL** )")
+            temp_df = df.groupby(by=["product"]).mean()
+            fig = px.histogram(temp_df, x=temp_df.index, y='price',text_auto=True,color_discrete_sequence=["#F35106"])
+            fig.update_layout(width=1400,height=500,margin=dict(l=1,r=1,b=1,t=1))
+            st.plotly_chart(fig)
+
+
+
+
+        
+
+
+
+    #--------------------------------------------------------------------------------------------------------------------
+    # SENTIMENT ANALYSIS
+    #--------------------------------------------------------------------------------------------------------------------
+
+    if choose=="Sentiment Analysis":
+        expander1 = st.expander('Upload your input CSV file')
+        uploaded_file = expander1.file_uploader(".", type=["csv"])
+
+        st.markdown("#")
+
+        if uploaded_file is not None:
+            sent_df = pd.read_csv(uploaded_file)
+
+
+        rev_class,gap,wordfreq = st.columns([2,0.1,2])
+
+        
+
+        #----------------------------------------------------------------------------------------------------------
+        #   REVIEW CLASSIFICATION
+        #----------------------------------------------------------------------------------------------------------
+
+        if uploaded_file is not None:
+            rev_class.subheader("Review Classfication")
+            review_class_fig = px.pie(
+                sent_df,
+                names="review_sentiment",
+                hole=0.5,
+                color_discrete_sequence=px.colors.sequential.RdBu,
+                template = "plotly_white")
+
+            colors = ['orangered', 'dimgrey']
+            review_class_fig.update_layout(width=600,height=550, title_x=0.2)
+            review_class_fig.update_traces(rotation=115,marker=dict(colors=colors))
+
+            rev_class.plotly_chart(review_class_fig)
+        else:
+            st.warning("Empty Dashboard. Please Upload Dataset")
+
+
+
+        
+
+        #----------------------------------------------------------------------------------------------------------
+        #   WORD FREQUENCY BY SENTIMENT
+        #----------------------------------------------------------------------------------------------------------
+
+        if uploaded_file is not None:
+            lemma = WordNetLemmatizer()
+            stop_words = stopwords.words('english')
+            def text_prep(x):
+                corp = str(x).lower()
+                corp = re.sub('[^a-zA-Z]+',' ',corp).strip()
+                tokens = word_tokenize(corp)
+                words = [t for t in tokens if t not in stop_words]
+                lemmatize = [lemma.lemmatize(w) for w in words]
+
+                return lemmatize
+
+            preprocess_tag = [text_prep(i) for i in sent_df['reviews.text']]
+            sent_df['preprocess_txt'] = preprocess_tag
+
+            sent_df['total_len'] = sent_df['preprocess_txt'].map(lambda x: len(x))
+
+            file = open('Review/negative-words.txt', 'r')
+            neg_words = file.read().split()
+            file = open('Review/positive-words.txt', 'r')
+            pos_words = file.read().split()
+
+            num_pos = sent_df['preprocess_txt'].map(lambda x: len([i for i in x if i in pos_words]))
+            sent_df['pos_count'] = num_pos
+            num_neg = sent_df['preprocess_txt'].map(lambda x: len([i for i in x if i in neg_words]))
+            sent_df['neg_count'] = num_neg
+
+
+        if uploaded_file is not None:
+            wordfreq.subheader("Word Frequency in Reviews")
+            pdt_select = wordfreq.selectbox('Select Product',options=sent_df['product'].unique())
+            pos_neg_selection = sent_df.query("product == @pdt_select")
+            pos_neg_df = pos_neg_selection[['product','preprocess_txt','total_len','pos_count','neg_count']]
+            pos_neg_df.rename(columns={
+                'preprocess_txt':'Words in Review',
+                'total_len':'Total number of words in Review',
+                'pos_count':'Number of Positive Words',
+                'neg_count':'Number of Negative Words'
+                },inplace=True
+            )
+            wordfreq.write(pos_neg_df.head(10))
+
+
+            temp_df = pos_neg_df.groupby(by=['product']).sum()
+            #pos_neg_fig = px.bar(temp_df, x="product", y="pos_count",color="product", barmode="group")
+
+            #pos_count_fig = px.bar(
+                #pos_neg,
+               # y='pos_count',
+                #x=pos_neg.index,
+               # title='<b>Positive Word Frequency by Products</b>',
+                #color_discrete_sequence=['#F35106']*len(pos_neg),
+                #template='plotly_white'
+            #)
+
+        pos_neg_sum,gap,revXpdt = st.columns([2,0.1,2])
+        if uploaded_file is not None:
+            temp_df2 = temp_df[temp_df.index == pdt_select]
+            pos_word_sum = temp_df2['Number of Positive Words'].values
+            neg_word_sum = temp_df2['Number of Negative Words'].values
+            pos_neg_sum.subheader(f"Number of Identified Postive Words {pos_word_sum}")
+            pos_neg_sum.subheader(f"Number of Identified Negative Words {neg_word_sum}")
+
+
+        #----------------------------------------------------------------------------------------------------------
+        #   PRODUCT PRICE VS RATING
+        #----------------------------------------------------------------------------------------------------------
+
+
+        if uploaded_file is not None:
+            revXpdt.subheader("Rating VS Sentiment Vs Price")
+            fig_rating_price = px.scatter(
+                sent_df,
+                x='rating',
+                y='price',
+                color='review_sentiment',
+                #template= "plotly_white"
+                )
+            fig_rating_price.update_layout(width=700,height=400,margin=dict(l=1,r=1,b=1,t=1))
+            revXpdt.plotly_chart(fig_rating_price)
+
+
 
 
 
