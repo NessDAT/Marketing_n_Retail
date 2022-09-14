@@ -485,9 +485,9 @@ if selected == "Review Classfication":
 
             sent_df['total_len'] = sent_df['preprocess_txt'].map(lambda x: len(x))
 
-            file = open('Review/negative-words.txt', 'r')
+            file = open('data/negative-words.txt', 'r')
             neg_words = file.read().split()
-            file = open('Review/positive-words.txt', 'r')
+            file = open('data/positive-words.txt', 'r')
             pos_words = file.read().split()
 
             num_pos = sent_df['preprocess_txt'].map(lambda x: len([i for i in x if i in pos_words]))
