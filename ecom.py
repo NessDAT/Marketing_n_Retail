@@ -16,6 +16,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 import re
+import nltk
 
 
 
@@ -124,7 +125,7 @@ if selected == "About":
 
     with col2:
         st.markdown("#")
-        st.image("images/girl.png")
+        st.image("data/girl.png")
 
     st.markdown("###")
 
