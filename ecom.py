@@ -471,6 +471,8 @@ if selected == "Review Classfication":
 
         if uploaded_file is not None:
             lemma = WordNetLemmatizer()
+            import nltk
+            nltk.download('stopwords')
             stop_words = stopwords.words('english')
             def text_prep(x):
                 corp = str(x).lower()
